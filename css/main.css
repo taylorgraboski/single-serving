@@ -1,0 +1,56 @@
+body {
+  background-color: #ECECEC;
+}
+
+a {
+  color: #4B4B4B;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+}
+
+nav ul {
+  list-style: none;
+  text-align: left;
+  /* padding-top: .5em; */
+  padding-left: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  font-family: Courier;
+  font-size: 1.4em;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 1em;
+}
+
+
+#video {
+  padding-top: 1em;
+}
+
+#my-works {
+  padding-top: 3em;
+  font-family: Courier;
+}
+
+img {
+  padding-top: 1em;
+}
+
+#about h1 {
+  padding-top: 1.5em;
+  font-family: Courier;
+}
+
+#contact {
+  padding-top: 3em;
+  font-family: Courier;
+}
