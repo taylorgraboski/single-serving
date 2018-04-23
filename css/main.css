@@ -36,6 +36,21 @@ nav a {
   padding-top: 1em;
 }
 
+.video-fluid {
+ position: relative;
+ height: 0;
+ padding-top: 56.2%;
+ border: 1px solid #ccc; /* optional */
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 #my-works {
   padding-top: 3em;
   font-family: Courier;
